@@ -1,10 +1,5 @@
 # 🛡️ Guide Complet — Analyse Réseau et Détection avec Zeek
- 
-> **Professeur :** Assistant IA — Gestion d'Intrusion  
-> **Niveau :** Intermédiaire  
-> **Outils :** Zeek, Linux, Wireshark  
-> **Méthode :** Étape par étape — on ne passe à la suivante qu'avec ton OK ✅
- 
+
 ---
  
 ## 📌 Vue d'ensemble du projet
