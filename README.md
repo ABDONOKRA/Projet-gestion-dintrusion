@@ -608,16 +608,14 @@ Conclusion :
 
 -------------------------------------------------------------------------------------------
 
+### 🔍 Analyse des ports ciblés
 
+| Port | Connexions S0 | Service |
+| :--- | :--- | :--- |
+| `5353` | 894 | mDNS — découverte Apple/Android |
+| `1900` | 557 | UPnP — découverte appareils réseau |
+| `53` | 175 | DNS |
+| `995` | 138 | POP3S — email chiffré |
+| `256` | 368 | Route Access Protocol |
 
-  ### 🔍 Analyse rapide du scan
-
-| Découverte | Détail |
-| :--- | :--- |
-| **Appareils trouvés** | **60 hôtes actifs** sur 256 |
-| **Ton PC** | `192.168.110.69` (fedora) — port 80 et 902 ouverts |
-| **Routeur** | `192.168.110.1` — ports 80/443 |
-| **iPhones** | 10+ appareils Apple |
-| **PCs Windows** | Plusieurs avec ports 135, 139, 445 (SMB) |
-| **⚠️ Intéressant** | `MY.lan` a le port **3306 MySQL ouvert** ! |
-| **⚠️ Intéressant** | `DESKTOP-AJ50CM1` a le port **3389 RDP ouvert** ! |
+Ces ports sont typiques d'un scan réseau qui cherche à **cartographier tous les services** disponibles. ✅
