@@ -607,15 +607,13 @@ Conclusion :
 
 
 -------------------------------------------------------------------------------------------
+### 🔍 Analyse de l'alerte
 
-### 🔍 Analyse des ports ciblés
-
-| Port | Connexions S0 | Service |
+| Champ | Valeur | Signification |
 | :--- | :--- | :--- |
-| `5353` | 894 | mDNS — découverte Apple/Android |
-| `1900` | 557 | UPnP — découverte appareils réseau |
-| `53` | 175 | DNS |
-| `995` | 138 | POP3S — email chiffré |
-| `256` | 368 | Route Access Protocol |
+| `ts` | `1777655041` | Timestamp de détection |
+| `note` | `PortScan::Detected` | ✅ Type d'alerte — notre script |
+| `src` | `192.168.110.69` | ✅ Ton PC identifié comme attaquant |
+| `msg` | `Scan detecte depuis 192.168.110.69 (20 ports tentes)` | ✅ Message clair |
 
-Ces ports sont typiques d'un scan réseau qui cherche à **cartographier tous les services** disponibles. ✅
+**Zeek a détecté automatiquement le scan dès 20 ports tentés** — exactement comme on a programmé le seuil. 🎯
