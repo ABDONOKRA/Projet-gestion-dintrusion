@@ -590,3 +590,34 @@ Conclusion :
 ---
  
 *Guide rédigé pour le cours de Gestion d'Intrusion — À utiliser uniquement dans un environnement de lab autorisé.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+
+  ### 🔍 Analyse rapide du scan
+
+| Découverte | Détail |
+| :--- | :--- |
+| **Appareils trouvés** | **60 hôtes actifs** sur 256 |
+| **Ton PC** | `192.168.110.69` (fedora) — port 80 et 902 ouverts |
+| **Routeur** | `192.168.110.1` — ports 80/443 |
+| **iPhones** | 10+ appareils Apple |
+| **PCs Windows** | Plusieurs avec ports 135, 139, 445 (SMB) |
+| **⚠️ Intéressant** | `MY.lan` a le port **3306 MySQL ouvert** ! |
+| **⚠️ Intéressant** | `DESKTOP-AJ50CM1` a le port **3389 RDP ouvert** ! |
